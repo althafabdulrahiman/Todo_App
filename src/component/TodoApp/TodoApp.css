@@ -52,3 +52,15 @@ h1{
 input::placeholder{
     color:silver;
 }
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .input-section {
+        flex-direction: column;
+    }
+
+    .input-section input {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
